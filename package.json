@@ -15,6 +15,7 @@
   ],
   "author": "alaadeen",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/blanzer-esports/translation-texts/issues"
   },
