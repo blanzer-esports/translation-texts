@@ -1,3 +1,694 @@
 {
-  "blanzer": "blanzer"
+  "blanzer":"blanzer",
+  "components":{
+    "tournamentCard":{
+      "endDate":"ENDS",
+      "prizePool":"PRIZE POOL",
+      "entry":"ENTRY",
+      "freeEntry":"Free",
+      "format":"FORMAT",
+      "region":"REGION",
+      "join":"JOIN"
+    },
+    "gameCard":{
+      "tournaments":"Tournaments",
+      "connectGame":"CONNECT GAME"
+    },
+    "userCard":{
+      "tournaments":"Tournaments"
+    },
+    "leaderboardCard":{
+      "number":"#",
+      "team":"TEAM",
+      "points":"POINTS",
+      "wins":"WINS"
+    },
+    "searchFilter":{
+      "filter":"Filter",
+      "table":"Table",
+      "grid":"Grid",
+      "entry":"ENTRY",
+      "all":"ALL",
+      "free":"FREE",
+      "format":"FORMAT",
+      "aLL":"ALL",
+      "1v1":"1v1",
+      "2v2":"2v2",
+      "3v3":"3v3",
+      "4v4":"4v4",
+      "region":"REGION",
+      "select":"Select",
+      "prize":"Prize",
+      "min":"Min",
+      "max":"Max",
+      "startFrom":" Start From",
+      "to":"To",
+      "less":"Less",
+      "more":"Filters"
+    }
+  },
+  "home":{
+    "joinTournamentButton":"Join Tournament",
+    "startDate":"Start Date",
+    "totalPrize":"Total Prize",
+    "yourTournaments":"Your Tournaments",
+    "featuredTournaments":"Featured Tournaments",
+    "popularGames":"Popular Games"
+  },
+  "selectedGame":{
+    "covernav":{
+      "tournamentCounter":"Tournaments",
+      "overview":"Overview",
+      "tournament":"Tournaments",
+      "leaderboard":"Leaderboard",
+      "findMatchButton":"FIND A MATCH"
+    },
+    "overview":{
+      "slider":{
+        "date":"Date",
+        "prizePool":"PRIZE POOL",
+        "region":"REGION",
+        "joinTournamentButton":"Join Tournament"
+      },
+      "featuredTournaments":"Featured Tournaments",
+      "leaderboard":"Leaderboard"
+    }
+  },
+  "selectedTournament":{
+    "covernav":{
+      "prizePool":"PRIZE POOL",
+      "entry":"ENTRY",
+      "format":"FORMAT",
+      "region":"REGION",
+      "tournament":"Tournament",
+      "overview":"Overview",
+      "bracket":"Bracket",
+      "prize":"Prize",
+      "faq":"FAQ",
+      "reportButton":"Report",
+      "joinButton":"Join for"
+    },
+    "overview":{
+      "tournamentDetails":"Tournament Details",
+      "information":"Information",
+      "readMore":"Read More",
+      "teams":"Teams",
+      "member":"Member",
+      "tournamentPrize":"Tournament Prize"
+    },
+    "faq":{
+      "title":"Frequently Asked Questions"
+    }
+  },
+  "team":{
+    "covernav":{
+      "teamTournaments":"Tournaments",
+      "overview":"Overview",
+      "tournaments":"Tournaments",
+      "members":"Members",
+      "games":"Games",
+      "settings":"Settings",
+      "askToJoin":"Ask To Join"
+    },
+    "overview":{
+      "latestTournaments":"Latest Tournaments",
+      "members":"Members",
+      "popularGames":"Popular Games"
+    },
+    "settings":{
+      "mainTitle":"Team Settings",
+      "overview":{
+        "blockTitle": "OVERVIEW",
+        "teamImage":{
+          "title":"Team Image",
+          "desc": "This will be displayed on your team page."
+        },
+        "teamBanner":{
+          "title":"Team Banner",
+          "desc": "Team Banner"
+        }
+      },
+      "teamName":{
+        "blockTitle": "TEAM NAME",
+        "placeHolder": "Team name"
+      },
+      "visibility":{
+        "blockTitle":"VISIBILITY",
+        "previousTeam":{
+          "title": "Previous teams",
+          "desc":"This will be displayed on your team page."
+        },
+        "games":{
+          "title":"Games",
+          "desc":"This will be displayed on your team page."
+        },
+        "badges":{
+          "title":"Badges",
+          "desc":"This will be displayed on your team page."
+        },
+        "askToJoin":{
+          "title":"Ask to join button",
+          "desc":"This will be displayed on your team page."
+        }
+      },
+      "teamPlayers":{
+        "blockTitle":"TEAM PLAYERS",
+        "options":{
+          "view":"View Profile",
+          "sendCoins":"Send Coins",
+          "kick": "Kick",
+          "report": "Report",
+          "transferLeader":"Transfer Leadership"
+        }
+      },
+      "danger":{
+        "blockTitle":"DANGER ZONE",
+        "mainTitle":"Delete Team",
+        "desc":"Disabling your account means you can recover it befor 6 days from disable it",
+        "button":"Delte Team"
+      },
+      "transferLeaderPopUp":{
+        "mainTitle":"Transfer Leadership",
+        "desc1":"Are you sure you want to transfer Leadership of eGaming to ",
+        "desc2":"? This action cannot be undone.",
+        "buttonTransfer":"Transfer Leadership",
+        "buttonCancel":"Cancel"
+      }
+    }
+  },
+  "user":{
+    "covernav":{
+      "userTournaments":"Tournaments",
+      "overview":"Overview",
+      "tournaments":"Tournaments",
+      "games":"Games",
+      "visibilitySettings":"Visibility Settings",
+      "inviteButton":"Invite"
+    },
+    "overview":{
+      "latestTournaments":"Latest Tournaments",
+      "userGames":"Linked Games"
+    },
+    "tournamentts":{
+      "latestTournaments":"Latest Tournaments"
+    },
+    "games":{
+      "games":"games"
+    },
+    "settings":{
+      "navItems":{
+        "details":"My details",
+        "visibility":"Visibility",
+        "linkGames":"Link Games",
+        "password":"Password",
+        "notification":"Notification",
+        "billings":"Billings",
+        "leaveTeam":"leave Team",
+        "logout":"Log Out"
+      },
+      "sections":{
+        "myDetails":{
+          "desc":"Update your photo and personal details",
+          "profilePhoto":"Your Photo",
+          "profilePhotoDesc":"This will be displayed on your profile.",
+          "profileBanner":"Profile Banner",
+          "profileBannerDesc":"Profile Banner",
+          "fullName":"Full Name",
+          "fullNameDesc":"Your Full Name",
+          "fullNameLabel1":"First Name",
+          "fullNameLabel2":"Last Name",
+          "disableAccount":"Disable Account",
+          "disableAccountDesc":"Disabling your account means you can recover it befor 6 days from disable it",
+          "disableAccountBtn":"Disable Account"
+        },
+        "visibility":{
+          "title":"Visibility",
+          "desc":"Select how you want people to see your profile",
+          "profile":{
+            "title":"profile",
+            "desc":"This will be displayed on your profile."
+          },
+          "previousTeam":{
+            "title":"Previous Team",
+            "desc":"This will be displayed on your profile."
+          },
+          "games":{
+            "title":"Games",
+            "desc":"This will be displayed on your profile."
+          },
+          "followersCount":{
+            "title":"Followers Count",
+            "desc":"This will be displayed on your profile."
+          },
+          "badges":{
+            "title":"Badges",
+            "desc":"This will be displayed on your profile."
+          },
+          "invitationButton":{
+            "title":"Invitation Button",
+            "desc":"This will be displayed on your profile."
+          }
+        },
+        "LinkedGames":{
+          "title":"Linked Games",
+          "desc":"Game accounts I've Linked",
+          "sectionTitle":"Games",
+          "sectionDesc":"Add/Remove games you've Linked",
+          "addButtonTitle":"Add game",
+          "addButtonDesc":"Click here to add a game"
+        },
+        "password":{
+          "title":"Set a New Password",
+          "desc":"change your password",
+          "label1":"Password",
+          "error1":"wrong password",
+          "label2":"New Password",
+          "error2":"New password must be at least 6 characters long",
+          "label3":"Confirm New Password",
+          "error3":"the passwords are not the same",
+          "placeHolder3":"Retype new password",
+          "button":"Confrim"
+        },
+        "notification":{
+          "title":"Notification",
+          "desc":"Select how you’ll be notified.",
+          "profile":{
+            "title":"profile",
+            "desc":"This will be displayed on your profile."
+          },
+          "previousTeam":{
+            "title":"Previous Team",
+            "desc":"This will be displayed on your profile."
+          },
+          "games":{
+            "title":"Games",
+            "desc":"This will be displayed on your profile."
+          },
+          "followersCount":{
+            "title":"Followers Count",
+            "desc":"This will be displayed on your profile."
+          },
+          "badges":{
+            "title":"Badges",
+            "desc":"This will be displayed on your profile."
+          },
+          "invitationButton":{
+            "title":"Invitation Button",
+            "desc":"This will be displayed on your profile."
+          }
+        }
+      }
+    }
+  },
+  "loginSignUp":{
+    "sideData":{
+      "packAGame":{
+        "title":"PICK A GAME",
+        "desc":"Compete for first place across a wide range of tournaments"
+      },
+      "findATeam":{
+        "title":"FIND A TEAM",
+        "desc":"Round up your friends or use the team finder system to find team"
+      },
+      "playMatches":{
+        "title":"PLAY MATCHES",
+        "desc":"Aka your gaming to the next level & compete today!"
+      }
+    },
+    "signUp":{
+      "mainTitle":"Join Us",
+      "subTitle":"Already have an account?",
+      "subTitleSuffiex":"Log in",
+      "label1":"Username",
+      "placeHolder1":"Enter your Name",
+      "label2":"Email",
+      "placeHolder2":"Enter your email",
+      "label3":"Password",
+      "placeHolder3":"Enter your password",
+      "error2":"Email is not valid",
+      "error3":"password must be at least 6 characters long",
+      "button":"SIGN UP AND PLAY"
+    },
+    "emailVerification":{
+      "title":"Check your email",
+      "desc":"We sent a verification code to ",
+      "label":"Enter the code",
+      "button":"SIGN UP AND PLAY",
+      "resendMsg":"Didn’t receive the email?",
+      "resendAction":"Click to resend"
+    },
+    "login":{
+      "mainTitle":"Welcome back!",
+      "subTitle":"Don't have an account?",
+      "subTitleSuffiex":"Sign up",
+      "label1":"Username",
+      "placeHolder1":"Enter your Name",
+      "label2":"Password",
+      "placeHolder2":"Enter your password",
+      "error1":"account does not exist",
+      "error2":"password must be at least 6 characters long",
+      "button":"LOGIN AND PLAY",
+      "remeberMe":"Remeber Me",
+      "forgotPassword":"Forgot Password",
+      "discord":"SIGN UP WITH DISCORD",
+      "twitch":"SIGN UP WITH TWITCH"
+    },
+    "forgotPassword":{
+      "title":"Forgot password?",
+      "desc":"No worries, we’ll send you reset instructions.",
+      "label":"Email",
+      "placeHolder":"Enter your email",
+      "error":"email does not exist",
+      "button":"SEND EMAIL"
+    },
+    "setNewPassword":{
+      "title":"Set new password",
+      "desc":"Your new password must be different to previously used passwords.",
+      "label1":"New Password",
+      "label2":"Confirm New Password",
+      "placeHolder1":"Enter your password",
+      "placeHolder2":"Confirm your password",
+      "error1":"New password must be at least 6 characters long",
+      "error2":"the passwords are not the same",
+      "button":"RESET PASSWORD"
+    }
+  },
+  "createTournamentSteps":{
+    "steps":{
+      "selectGame":{
+        "title":"Select game",
+        "desc":"Select a game to continue."
+      },
+      "general":{
+        "title":"General",
+        "desc":"Basic information about your tournamet."
+      },
+      "termsAndVisibility":{
+        "title":"Terms & Visibility",
+        "desc":"Give information about your tournamet."
+      },
+      "faq":{
+        "title":"FAQ",
+        "desc":"Answer what people would ask"
+      },
+      "prizes":{
+        "title":"Prizes",
+        "desc":"Show prizes"
+      },
+      "button":"SAVE DRAFT AND BACK"
+    },
+    "stepsButtons":{
+      "backButton":"BACK",
+      "nextButton":"NEXT STEP",
+      "publishFor":"PUBLISH FOR"
+    },
+    "sections":{
+      "selectGame":{
+        "title":"Select game",
+        "desc":"Select a game",
+        "placeHolder":"Search for games..."
+      },
+      "general":{
+        "title":"General",
+        "desc":"Basic information about your tournamet.",
+        "sections":{
+          "tournamentName":{
+            "label":"Tournament Name",
+            "placeHolder":"Your Tournament name"
+          },
+          "tournamentImage":"Tournament Image",
+          "tournamentBanner":"Tournament Banner",
+          "maxNumberLabel":"MAX NUMBER OF TEAMS",
+          "formatLabel":"FORMAT",
+          "selectType":{
+            "title":"Select Type",
+            "Type1":{
+              "title":"Type 01",
+              "desc":"Only you and people you choose can join your tournament"
+            },
+            "Type2":{
+              "title":"Type 02",
+              "desc":"Only you and people you choose can join"
+            }
+          },
+          "date":{
+            "label":"Date",
+            "placeHolder":"Start Date"
+          }
+        }
+      },
+      "termsAndVisibility":{
+        "title":"Terms & Visibility",
+        "desc":"Give us more information about your tournamet.",
+        "sections":{
+          "visiblity":{
+            "title":"Visibility",
+            "private":{
+              "title":"Private",
+              "desc":"Only you and people you choose can join your tournament"
+            },
+            "unlisted":{
+              "title":"Unlisted",
+              "desc":"Anyone with the tournament link can join your tournament"
+            },
+            "public":{
+              "title":"Public",
+              "desc":"Everyone can join your tournament"
+            },
+            "terms":{
+              "title":"Terms",
+              "placeHolder":"Terms"
+            }
+          }
+        }
+      },
+      "faq":{
+        "title":"FAQ",
+        "desc":"Give us more information about your tournamet.",
+        "sections":{
+          "questions":{
+            "label":"Questions",
+            "placeHolder":"Add your question"
+          },
+          "answer":{
+            "label":"Answer",
+            "placeHolder":"Add the answer",
+            "button":"Add"
+          }
+        }
+      },
+      "prizes":{
+        "title":"Prizes",
+        "desc":"Give us more information about your tournamet.",
+        "label":"Prizes",
+        "addButton":{
+          "titleAdd":"Add",
+          "titlePrize":"Prize",
+          "descAdd":"Click here to add",
+          "descPrize":"Prize"
+        }
+      },
+      "popUp":{
+        "title":"ARE YOU SURE?",
+        "desc":"Are you sure you want to pay 12,000 to publish this tournament?",
+        "payButton":"PAY",
+        "cancelButton":"CANCEL"
+      }
+    }
+  },
+  "findAMatch":{
+    "findMatchPopUp":{
+      "title":"FIND A MATCH",
+      "desc":"Select the size of the match",
+      "play":"Play"
+    },
+    "invitePopUp":{
+      "title":"WHO’S GONNA PLAY",
+      "desc":"Invite players to play with",
+      "team":"team",
+      "button":"NEXT STEP"
+    },
+    "readyPopUp":{
+      "title":"WAITING FOR OTHER PLAYERS",
+      "vs":"VS",
+      "button":"READY"
+    },
+    "datePopUp":{
+      "title":"YOUR MATCH",
+      "button":"NEXT STEP"
+    },
+    "gameChat":{
+      "match":"MATCH",
+      "vs":"VS",
+      "reportButton":"Report",
+      "endGameButton":"End game",
+      "votesLeft":"VOTES LEFT",
+      "readyStatus":"Ready",
+      "chatVote":"voted to end the game",
+      "wonTheGame":"You won this game",
+      "victory":"Victory"
+    }
+  },
+  "createTeam":{
+    "of":"of",
+    "stepsCompleted":"steps completed",
+    "buttons":{
+      "next":"NEXT STEP",
+      "back":"BACK"
+    },
+    "steps":{
+      "firstStep":{
+        "title":"SET UP YOUR TEAM",
+        "desc":"Give your team a name",
+        "label":"Team name",
+        "placeHolder":"Enter the team name"
+      },
+      "secondStep":{
+        "title":"UPLOAD LOGO AND BANNER",
+        "desc":"Customize your team by adding a logo and banner.",
+        "label1":"Team Logo",
+        "label2":"Team Banner"
+      },
+      "thirdStep":{
+        "title":"INVITE PLAYERS",
+        "desc":"Invite players to your team.",
+        "label1":"MAX NUMBER OF PLAYERS",
+        "label2":"INVITE LINK",
+        "copySmallLabel":"Click to copy"
+      }
+    }
+  },
+  "buyCoins":{
+    "stepsTitles":{
+      "firstStep":"Coins amount",
+      "secondStep":"Payment Method",
+      "thirdStep":"Review"
+    },
+    "buttons":{
+      "next":"NEXT STEP",
+      "back":"BACK",
+      "pay":"Pay"
+    },
+    "chooseAmountStep":{
+      "title":"Choose Amount",
+      "desc":"Choose amount to deposit"
+    },
+    "paymentMethodStep":{
+      "title":"Payment Method",
+      "desc":"Select a payment method"
+    },
+    "reviewStep":{
+      "title":"Review",
+      "desc":"Confirm and submit your order",
+      "edit":"Edit",
+      "coinsAmount":"Coins Amount",
+      "coins":"Coins",
+      "total":"Total",
+      "payment":"Payment"
+    }
+  },
+  "sendCoins":{
+    "title":"SEND COINS",
+    "desc":"Send coins to your friends",
+    "label1":"Send Coins to",
+    "label2":"Amount",
+    "cancelButton":"CANCEL",
+    "sendButton":"Send",
+    "successMsg":{
+      "title":"Coins Have Been transferred",
+      "descMsg":"coins have successfully transferred to"
+    },
+    "alrightButton":"Alright!"
+  },
+  "myTournaments":{
+    "mainTitle":"My tournaments",
+    "newTournament":"NEW TOURNAMENT",
+    "overview":{
+      "pending":"Pending",
+      "active":"Active",
+      "endsDate":"ENDS"
+    },
+    "oneTournamnetSettings":{
+      "navBar":{
+        "general":"General",
+        "termsAndVisibility":"Terms & Visibility",
+        "faq":"FAQ",
+        "prizes":"Prizes",
+        "teams":"Teams",
+        "undoChagnes":"UNDO CHANGES",
+        "save":"SAVE"
+      },
+      "sections":{
+        "general":{
+          "tournamentName":{
+            "label":"Tournament Name",
+            "placeHolder":"Your Tournament name"
+          },
+          "tournamentImage":{
+            "label":"Tournament Image"
+          },
+          "tournamentBanner":{
+            "label":"Tournament Banner"
+          },
+          "selectType":{
+            "label":"Select Type",
+            "placeHolder":"Tournament Type"
+          },
+          "date":{
+            "label":"Date",
+            "placeHolder":"Start Date"
+          }
+        },
+        "termsAndVisibility":{
+          "sections":{
+            "visiblity":{
+              "title":"Visibility",
+              "private":{
+                "title":"Private",
+                "desc":"Only you and people you choose can join your tournament"
+              },
+              "unlisted":{
+                "title":"Unlisted",
+                "desc":"Anyone with the tournament link can join your tournament"
+              },
+              "public":{
+                "title":"Public",
+                "desc":"Everyone can join your tournament"
+              },
+              "terms":{
+                "title":"Terms",
+                "placeHolder":"Terms"
+              }
+            }
+          }
+        },
+        "faq":{
+          "sections":{
+            "questions":{
+              "label":"Questions",
+              "placeHolder":"Add your question"
+            },
+            "answer":{
+              "label":"Answer",
+              "placeHolder":"Add the answer",
+              "button":"Add"
+            }
+          }
+        },
+        "teams":{
+          "joined":"joined",
+          "ago":"ago"
+        }
+      }
+    }
+  },
+  "chat":{
+    "team":"TEAM",
+    "members":"Members",
+    "teamMembers":"TEAM MEMBERS",
+    "status":{
+      "online":"online",
+      "offline":"offline"
+    }
+  }
 }
